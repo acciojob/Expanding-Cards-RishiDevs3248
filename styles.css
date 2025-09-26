@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+
+.container{
+	display:flex;
+	
+}
+.panel{
+	width:10vw;
+	overflow:hidden;
+	position:relative;
+}
+.active{
+	width:60vw;
+}
+
+.panel.active .img-text {
+  opacity: 1;
+}
+
+	
+.img-text{
+	position:absolute;
+	bottom : 0px;
+	color:#fff;
+	z-index:10;
+	opacity:0
+}
